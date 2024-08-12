@@ -1,6 +1,6 @@
 local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))()
 
-local Luxt = Luxtl.CreateWindow("Wisteria GUI", 6105620301)
+local Luxt = Luxtl.CreateWindow("Ronny Hub", 6105620301)
 
 --tabs
 local sg = Luxt:Tab("Shooting")
