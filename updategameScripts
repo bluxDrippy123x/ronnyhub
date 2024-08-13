@@ -1,0 +1,15 @@
+-- Define the place IDs
+local placeId1 = 14932457719
+local placeId2 = 8204899140
+
+-- Get the current PlaceId
+local currentPlaceId = game.PlaceId
+
+-- Check which PlaceId the game is running in and execute the corresponding script
+if currentPlaceId == placeId1 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/C1TuLYux"))()
+elseif currentPlaceId == placeId2 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/76wjDv9Z"))()
+else
+    print("This script cannot be executed in this place.")
+end
