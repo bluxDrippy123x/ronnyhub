@@ -2,6 +2,7 @@
 local placeId1 = 14932457719
 local placeId2 = 8204899140 and 8206123457
 local placeId3 = 16495097937 and 17572460211 and 18153859040
+local placeId4 = 5018962135
 -- Get the current PlaceId
 local currentPlaceId = game.PlaceId
 
@@ -12,6 +13,8 @@ elseif currentPlaceId == placeId2 then
     loadstring(game:HttpGet("https://pastebin.com/raw/76wjDv9Z"))()
 elseif currentPlaceId == placeId3 then
     loadstring(game:HttpGet("https://pastebin.com/raw/bY2QdJLC"))()
+elseif currentPlaceId == placeId4 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/y6e60LpV"))()
 else
     print("This script cannot be executed in this place.")
 end
